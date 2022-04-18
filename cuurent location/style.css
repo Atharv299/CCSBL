@@ -1,0 +1,37 @@
+html {
+  text-align: center;
+  font-family: calibri, arial, sans-serif;
+  background-image: url(pat-whelen-a0j1zB5oL8o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.st{
+  
+  padding-bottom: 30%;
+  padding-left:10% ;
+  padding-right: 10%;
+  border-radius: 20px;
+  
+  margin: 10px;
+  
+
+}
+img{
+  height: 50px;
+  width: 50px;
+  animation: forwards;
+}
+
+
+.location {
+  display: block;
+  font-size: 0.8em;
+  padding-top: 20px;
+}
+h1 {
+  width: 40%;
+  margin: auto;
+}
+

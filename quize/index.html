@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        a.active,a:hover{
+            border:2px solid white;
+            border-radius: 5px;
+        }
+    </style>
+
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <title>Quiz</title>
+
+    <!--  Styles  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #c1beca;margin-top: 0px;padding-top: 0px;margin-left: 0px;margin-right: 0px;">
+    <div style="
+    width:100%;
+    height:760px;
+    margin-top: 0px; 
+    padding-top: 0px;
+    margin-left: 0px;
+    
+    background-attachment:fixed;
+    color: rgba(255,255,255,1);
+    font-family:'Quicksand', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+        <div style="background-color: #333; width:100%;margin-left: 0px;width:100%;margin-right: 1px;margin-top: 5px;height:50px;
+        display:flex;
+        padding-top: 0px;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        align-items:center;
+        top:0%;
+        margin-top: 0px;margin-bottom: 1px;">
+            <div style="font-size: 45px;
+            font-weight:600;
+            padding-left: 20px;
+            padding-top: 0px;
+            margin-top: 10px;
+
+        ">
+          
+            </div>
+            <div >
+                <ul style="list-style:none;
+                display:flex;
+                height:100%;
+                margin-top: 10px;
+
+                background-color: #333;">
+                    <li><a style="text-decoration:none;
+                        color: rgba(255,255,255,1);
+                        padding: 0.9em 1.5em;
+                        line-height: 1px;
+                        font-size:15px;
+                        text-transform: uppercase;
+                        "href="../home.php">Homepage</a></li>
+                    <li><a style="text-decoration:none;
+                        color: rgba(255,255,255,1);
+                        padding: 0.9em 1.5em;
+                        line-height: 1px;
+                        font-size:15px;
+                        text-transform: uppercase;" href="index.html"class="active">QUIZ</a></li>
+                    <li><a style="text-decoration:none;
+                        color: rgba(255,255,255,1);
+                        padding: 0.9em 1.5em;
+                        line-height: 1px;
+                        font-size:15px;
+                        text-transform: uppercase;" href="#">About us</a></li>
+                    <li><a style="text-decoration:none;
+                        color: rgba(255,255,255,1);
+                        padding: 0.9em 1.5em;
+                        line-height: 1px;
+                        font-size:15px;
+                        text-transform: uppercase; "href="../addtopic.html">Discussion</a></li>
+                    <li><a style="text-decoration:none;
+                        color: rgba(255,255,255,1);
+                        padding: 0.9em 1.5em;
+                        line-height: 1px;
+                        font-size:15px;
+                        text-transform: uppercase; "href="https://news.un.org/en/news/topic/climate-change" target="_blank">Climate and Environment</a></li>
+                    <li><a style="text-decoration:none;
+                        color: rgba(255,255,255,1);
+                        padding: 0.9em 1.5em;
+                        line-height: 1px;
+                        font-size:15px;
+                        text-transform: uppercase; " href="login.php?logout='1'" >Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    <div style="color:black;margin-top: 0px;">
+    <h1> Quiz-o-fy</h1>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+
+    </div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+    <h6>Good try!!!</h6>
+    <script src="jsquiz.js"></script>
+    </div>
+</body>
+
+</html>

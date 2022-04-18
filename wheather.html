@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <link rel="stylesheet" href="wheather.css">
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="red lighten-2">
+        <h1>Weather Forecast</h1>
+      </div>
+      <div class="orange lighten-2">
+        <h3>
+          <span id="temp">temp</span>&nbsp
+          <span id="weather_icon"></span>
+          <span id="weather">weather</span>
+          
+        </h3>
+      </div>
+      <div class=" yellow lighten-1">
+          
+        <h4 style="color: black; ">
+            <a style="color: black;"> Your City</a><br>
+          <span  id="city">city</span>&nbsp
+          <small>
+            <span id="location"></span>
+          </small>
+        </h4>
+      </div>
+      <div class="green lighten-2">
+        <h5>
+          Wind speed: <span id="wind_speed"></span>&nbsp
+          Cloudiness: <span id="cloudiness"></span>
+        </h5>
+      </div>
+      <div class="cyan lighten-3">
+        <h5>
+          Humidity: <span id="humidity"></span>&nbsp
+          Pressure: <span id="pressure"></span>
+        </h5>
+      </div>
+      <div class="blue lighten-2">
+        <h5>
+            <a style="color: black;">Sunrise & Sunset </a>
+            <br>
+          <i class="wi wi-sunrise"></i>
+          <span id="sunrise_time">sunrise</span>&nbsp
+          <i class="wi wi-sunset"></i>
+          <span id="sunset_time">sunset</span>
+        </h5>
+      </div>
+    
+      
+    <div id="modal_forecast" class="blue lighten-3" style="color: black;">
+        <div class="modal-content">
+          <h4>Weather Forecast</h4>
+          <table class="highlight centered">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Weather</th>
+                <th>Temp</th>
+              </tr>
+            </thead>
+            <tbody id="forecast">
+            </tbody>
+          </table>
+        </div>
+        <div class="nav-wrapper" style="z-index:1000">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-window-close-o" aria-hidden="true"></i> Close</a>
+          <a class="" href="#modal_search"><i class="fa fa-search" aria-hidden="true"></i> <span id="city_now">City</span></a>
+        </div>
+      </div>
+       
+
+
+        
+      </div>
+</body>
+<script src="wheather.js"></script>
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left'
+    });
+  });
+        
+</script>
+</html>

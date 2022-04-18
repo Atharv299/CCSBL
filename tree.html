@@ -1,0 +1,149 @@
+<html>
+  <head>
+<link rel="stylesheet" href="tree.css">
+</head>
+<body>
+     <div class="header">
+     WEATHER Analysis based on no.of trees
+    </div>
+   <div class="container1"> 
+<div class="rttt">
+ Your current location is:</div>
+  <div class="rt1">  
+ <span  class="location"></span></div>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+        </div>
+
+<div  class="container2">
+    <label for="scoreInput">Enter the number of trees per square kilometer: </label><br>
+
+    <form method="post" action="district.php" name="forms">
+    <div class="ip1">
+    <input type="text" id="scoreInput" name="trr" style="margin-top:20px ; outline: none;" placeholder="Enter no. of trees">
+    </div>
+  
+    <div   style="text-align: left;margin-left: 20% ;"class="ip2">
+      
+      <input  type="radio" name="chk1" value="Rural">
+      <label style="text-align: left;margin-left: -10% ;">Rural</label><br>
+      <input type="radio" name="chk1" value="Urban">
+      <label style="text-align: left;margin-left: -10% ;">Urban</label></div>
+      
+  <div style="text-align: left;margin-left: 20% ; margin-top: 20px;">
+        <input type="radio" name="cat" value="1">
+        <label style="text-align: center; margin-left: -10%;";><b>Category 1</b></label>
+        <br>
+        <br>
+        <div style="box-shadow: 3px 4px #fff;width:535px;">
+        <img src="images/peepal.jpg" alt="peepal" height="120" width="130">
+        <img src="images/Banyan.jpg" alt="peepal" height="120" width="130">
+        <img src="images/Neem.jpg" alt="peepal" height="120" width="130">
+        <img src="images/mango.jpg" alt="peepal" height="120" width="130">
+        </div>
+       <h3> <pre style="color: white; margin-left: -7%;margin-top: 5px;">       Peepal            Banyan             Neem                Mango</pre></h3>
+        <br>
+        <input type="radio" name="cat" value="2">
+        <label style="text-align: center; margin-left: -10%;">Category 2</label>
+        <br>
+        <br>
+        
+        <div style="box-shadow: 3px 4px #fff;width:535px">
+        <img src="images/ashok.jpg" alt="peepal" height="120" width="130">
+        <img src="images/almond.jpg" alt="peepal" height="120" width="130">
+        <img src="images/babul.jpg" alt="peepal" height="120" width="130">
+        <img src="images/coco.jpg" alt="peepal" height="120" width="130">
+        </div>
+        <pre style="color: white;">       Ashok            Almond             Babool              Coconut</pre>
+        </div>
+      
+        
+        
+        
+          </div>
+          <div class="container2">
+          
+          <button type="button" id="grade" style="padding: 8px; border-radius: 8px; border: none; margin-top: 5px; margin-bottom: 5px; outline: none;">SUBMIT</button>
+        
+
+
+
+
+
+
+
+
+
+
+         <div class="result">
+          <p id="result" style="color:black;margin-bottom: 15px; margin-top: 5px;">RESULTS APPEAR HERE</p>
+        </div>
+      
+
+
+
+
+
+
+
+
+
+          <label for="cars">Choose a district:</label>
+          <select name="dis" id="cars">
+            <option value="Ahemadnagar">Ahemadnagar</option>
+            <option value="Akola">Akola</option>
+            <option value="Amravati">Amravati</option>
+            <option value="Aurangabad">Aurangabad</option>
+            <option value="Beed">Beed</option>
+            <option value="Bhandara">Bhandara</option>
+            <option value="Buldhana">Buldhana</option>
+            <option value="Chandrapur">Chandrapur</option>
+
+            <option value="Dhule">Dhule</option>
+            <option value="Gadchiroli">Gadchiroli</option>
+            <option value="Gondia">Gondia</option>
+            <option value="Hingoli">Hingoli</option>
+            <option value="Jalgaon">Jalgaon</option>
+            <option value="Jalna">Jalna</option>
+            <option value="Kolhapur">Kolhapur</option>
+            <option value="Latur">Latur</option>
+
+            <option value="Mumbai">Mumbai city
+            </option>
+            <option value="mumbaisubr">mumbai subr
+            </option>
+            <option value="Nagpur">Nagpur
+            </option>
+            <option value="Nanded">Nanded</option>
+            <option value="Nandurbar">Nandurbar</option>
+            <option value="Nashik">Nashik</option>
+            <option value="Osmanabad">Osmanabad</option>
+            <option value="Palghar">Palghar</option>
+
+            <option value="Parbhani">Parbhani</option>
+            <option value="Pune">Pune</option>
+            <option value="Raigad">Raigad</option>
+            <option value="Ratnagiri">Ratnagiri</option>
+            <option value="Sangli">Sangli</option>
+            <option value="Satara">Satara</option>
+
+            <option value="Sindhudurg">Sindhudurg</option>
+            <option value="Solapur">Solapur</option>
+            <option value="Thane">Thane</option>
+            <option value="wardha">wardha</option>
+            <option value="Washim">Washim</option>
+            <option value="Yavatmal">Yavatmal</option>
+
+          </select>
+          <br><br>
+          <input type="submit" name= "insert" value="Generate a report">
+        </form>
+      </div>
+          <script src="treea.js"></script>
+</div>
+
+    <script src="treea.js"></script>
+  <script src="cuurent location\script.js"></script>
+
+</body>
+</html>
+

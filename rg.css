@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#a6a6ff88;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .container {
+     background:rgba(240, 242, 255, 0.637);
+     width:400px;
+     height:auto;
+    box-shadow:0px 2px 2px rgba(0,0,0,.1);
+    padding-bottom:1rem;
+    border-radius: 2rem;
+  }
+  .login-container {
+    padding:2rem;
+  }
+  .login-container h3{
+    margin:20px 0 30px;
+    text-transform:capitalize;
+    font-size:24px;
+  }
+  
+  .input-group input{
+    padding:.8rem;
+    width:100%;
+    border:1px solid #ccc;
+    border-radius: 2rem;
+  }
+  input::placeholder{
+    text-transform:capitalize;
+    font-size:12px;
+    color:#A0A3B0;
+  }
+  .input-group .label{
+    display:flex;
+    padding:5px 0;
+    justify-content:space-between;
+  }
+  label{
+    font-size:13px;
+    font-weight:bold;
+  }
+  .label small{
+    color:red;
+    text-transform:capitalize;
+  }
+  
+  .btn{
+    padding:.75rem;
+    width:100%;
+    border-radius:5px;
+    border:2px solid #353D5A;
+    color:#353D5A;
+    background:transparent;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:5px;
+    transition:.2s ease-in;
+  }
+  .btn:hover{
+    box-shadow:1px 4px 7px rgba(0,0,0,.2);
+    background:#353D5A;
+    color:#fff;
+  }
+  .login{
+    border:0px solid #ff2222;
+    background:#ff2222;
+    color:rgb(255, 255, 255);
+    margin-top:1rem;
+  }
+  .login:hover{
+    box-shadow:1px 4px 7px rgba(0,0,0,.2);
+    background:#67ff01;
+    color: #000;;
+  }
+  .terms{
+    font-size:11px;
+    text-align:center;
+  }
+  .register{
+    margin-top:40px;
+  }
+  .register span{
+    font-size:12px;
+  }
+  
+  .divider{
+    border-top:1px solid rgba(0,0,0,.2);
+    margin-bottom:10px;
+  }
+  .actions{
+    padding:1rem;
+    display:flex;
+    gap:15px;
+    justify-content:center;
+  }
+  .actions a{
+    font-size:12px;
+    color:#FCA4C2;
+    text-decoration:none;
+  }
+  .actions a:hover{
+    color:#F43C7C;
+  }

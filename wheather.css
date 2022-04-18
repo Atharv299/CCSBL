@@ -1,0 +1,24 @@
+h1, h3, h4, h5{
+  margin: 0px;
+  padding: 40px 20px;
+}
+
+h6{
+  margin: 0px;
+  padding: 25px 20px;
+  line-height: 1.7;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#weather_desc {
+  font-size: 25px;
+}
+
+#weather_icon {
+  font-size: 50px;
+}
