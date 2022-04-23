@@ -9,11 +9,11 @@
 
 
 	
-$servername = "mysql-76114-0.cloudclusters.net";
+$servername = "mysql-76699-0.cloudclusters.net";
 $username = "admin";
-$password = "wukw2jOJ";
+$password = "lNThOHq5";
 $dbname   = "registration";
-$dbServerPort = 18814;
+$dbServerPort = 14840;
 
 // Create connection
 $db = new mysqli($servername, $username, $password, $dbname, $dbServerPort,);
